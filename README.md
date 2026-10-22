@@ -178,6 +178,10 @@ Push the repository to GitHub, then create **two** Vercel projects from the same
 - Cover images use a URL because Vercel has no permanent disk. For uploads, connect a service such as Cloudinary.
 - The login token is stored in `localStorage` and sent as a `Bearer` header, which works across two different Vercel domains without cookie setup.
 - Possible additions: newsletter, bookmarks, comment replies, rate limiting, image uploads.
+  
+Live Demo: https://blot-project-ekdh.vercel.app
+Admin email: admin@example.com
+Admin password: admin123
 
 ## Author
 
